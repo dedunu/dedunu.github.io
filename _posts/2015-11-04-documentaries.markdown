@@ -6,12 +6,18 @@ permalink: /entertainment/documentaries
 categories: entertainment documentaries documentary video
 ---
 
-Documentary
+Inventions
 ====================
 
 * Inventions That Shook The World Part 1 - Discovery
 * Inventions That Shook The World Part 2 - Discovery
 * Inventions That Shook The World Part 3 - Discovery
+
+Technologies
+====================
 * Future Technologies That Will Change The World
 * The Human Robot
-* What if the Earth STOP Spinning 
+
+Nature
+====================
+* What if the Earth STOP Spinning
