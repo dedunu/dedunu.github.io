@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Dedunu Dhananjaya - Contact
+title: Contact
 permalink: /contact/
 ---
 
