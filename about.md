@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Dedunu Dhananjaya - About
+title: About
 permalink: /about/
 ---
 
