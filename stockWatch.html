@@ -1,6 +1,7 @@
 ---
-layout: stock
+layout: stock 
 ---
+
 <hr />
 
 <div class="home">
@@ -168,6 +169,63 @@ layout: stock
                 }, {
                     "description": "VRSN",
                     "proName": "NASDAQ:VRSN"
+                }],
+                "locale": "en"
+            }
+        </script>
+    </div>
+
+    <div class="tradingview-widget-container">
+        <div class="tradingview-widget-container__widget"></div>
+        <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-tickers.js" async>
+            {
+                "symbols": [{
+                        "title": "EUR/USD",
+                        "proName": "FX_IDC:EURUSD"
+                    },
+                    {
+                        "title": "BTC/USD",
+                        "proName": "BITFINEX:BTCUSD"
+                    },
+                    {
+                        "title": "GBP/USD",
+                        "proName": "GX:GBPUSD"
+                    }
+                ],
+                "locale": "en"
+            }
+        </script>
+    </div>
+
+    <div class="tradingview-widget-container">
+        <div class="tradingview-widget-container__widget"></div>
+        <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-tickers.js" async>
+            {
+                "symbols": [{
+                        "description": "Gold",
+                        "proName": "TVC:GOLD"
+                    },
+                    {
+                        "description": "US Oil",
+                        "proName": "TVC:USOIL"
+                    },
+                    {
+                        "description": "Brent Oil",
+                        "proName": "TVC:UKOIL"
+                    }
+                ],
+                "locale": "en"
+            }
+        </script>
+    </div>
+
+    <div class="tradingview-widget-container">
+        <div class="tradingview-widget-container__widget"></div>
+        <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-tickers.js" async>
+            {
+                "symbols": [{
+                    "description": "Dollar Index",
+                    "proName": "TVC:DXY"
                 }],
                 "locale": "en"
             }
