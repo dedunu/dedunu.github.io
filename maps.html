@@ -76,7 +76,7 @@
     geographyConfig: {
         popupTemplate: function(geo, data) {
             return ['<div class="hoverinfo"><strong>',
-                        data.numberOfThings,
+                        geo.properties.name,
                         '</strong></div>'].join('');
         }
     }
