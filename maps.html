@@ -3,8 +3,6 @@
 <head>
     <style>
         .active { fill: blue !important;}
-        /*.datamaps-key dt, .datamaps-key dd {float: none !important;}
-        .datamaps-key {right: -50px; top: 0;}*/
     </style>
 </head>
 <body>
@@ -77,10 +75,7 @@
     },
     geographyConfig: {
         popupTemplate: function(geo, data) {
-            return ['<div class="hoverinfo"><strong>',
-                    'Number of things in ' + geo.properties.name,
-                    ': ' + data.numberOfThings,
-                    '</strong></div>'].join('');
+            return [''].join('');
         }
     }
     });
