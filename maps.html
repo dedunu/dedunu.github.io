@@ -75,7 +75,9 @@
     },
     geographyConfig: {
         popupTemplate: function(geo, data) {
-            return [''].join('');
+            return ['<div class="hoverinfo"><strong>',
+                        data.numberOfThings,
+                        '</strong></div>'].join('');
         }
     }
     });
