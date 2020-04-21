@@ -1,14 +1,7 @@
 title: Dedunu Dhananjaya 
 author:
   name: Dedunu Dhananjaya
-  email: 
-description: > 
-  Powered by Github
-
-show_excerpts: false 
-
-
-
+  
 minima:
   date_format: "%-d %B %Y"
   
