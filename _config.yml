@@ -2,17 +2,14 @@ title: Dedunu Dhananjaya
 author:
   name: Dedunu Dhananjaya
   email: 
-description: > # this means to ignore newlines until "show_excerpts:"
+description: > 
   Powered by Github
 
 show_excerpts: false 
 
-# Minima date format
-# refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
 minima:
-  date_format: "%-d %b %Y"
-
-  # generate social links in footer
+  date_format: "%-d %B %Y"
+  
   social_links:
     github: dedunumax
     linkedin: dedunu 
@@ -20,7 +17,6 @@ minima:
 header_pages:
  - info.md
 
-# Build settings
 theme: minima
 
 plugins:
