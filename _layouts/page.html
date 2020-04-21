@@ -1,20 +1,14 @@
 ---
 layout: default
 ---
-<article>
-   <h2>{{ page.title }}</h2>
-   <hr>
-   <div id="custom-para"> {{ content }} </div>
-</article>
+<article class="post">
 
-<footer>
-  <hr />
-<div class="social_icons">
-  <a href="https://github.com/dedunumax" title="Github">
-    <i class="fa fa-3x fa-github-square"></i>
-  </a>
-  <a href="http://lk.linkedin.com/in/dedunu/" title="LinkedIn">
-    <i class="fa fa-3x fa-linkedin-square"></i>
-  </a>
-</div>
-</footer>
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title | escape }}</h1>
+  </header>
+
+  <div class="post-content">
+    {{ content }}
+  </div>
+
+</article>
