@@ -13,7 +13,7 @@ tags:
 - BIT
 modified_time: '2019-07-09T17:21:16.698+03:00'
 blogger_id: tag:blogger.com,1999:blog-8327060682734922468.post-8209009047496855061
-blogger_orig_url: https://www.dedunu.info/2012/10/are-you-going-to-save-space-using-bit_3.html
+permalink: www.dedunu.info/2012/10/are-you-going-to-save-space-using-bit_3.html
 ---
 
 <div dir="ltr" style="text-align: left;" trbidi="on"><div align="justify"><a href="https://dedunumax.wordpress.com/2012/10/02/are-you-going-to-save-space-using-bit-data-type/" target="_blank">Yesterday I wrote a post with the same title.</a> In that post I mentioned using char(1) is also the same as using a one-bit column in the table. But it is from the perspective of storage space. But using numbers is less burden to the Database engine. It means using 1 and 0 is better than using ‘Y’ and ‘N’. Also in comparing data or in sorting data, it is easier.</div><br /><div align="justify">If you are storing numbers as a text its not a good thing although you don’t do any mathematical operation with that text. The first thing it takes more space. It takes 1 byte for every character, while <a href="https://dedunumax.wordpress.com/2012/10/02/data-type-details-from-sphelp/" target="_blank">integers take very less</a>. The second thing if you store them as a string it will have an extra cost to manipulate, compare, sort, whatever you are going to do with them.</div></div>

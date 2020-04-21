@@ -7,7 +7,7 @@ tags:
 - vagrant
 modified_time: '2019-07-09T18:12:39.066+03:00'
 blogger_id: tag:blogger.com,1999:blog-8327060682734922468.post-3793842575456575367
-blogger_orig_url: https://www.dedunu.info/2015/05/increase-memory-and-cpus-on-vagrant.html
+permalink: www.dedunu.info/2015/05/increase-memory-and-cpus-on-vagrant.html
 ---
 
 <div dir="ltr" style="text-align: left;" trbidi="on">Last post I showed how to create multiple nodes in a single Vagrant project. Usually "ubuntu/trusty64" box comes with 500MB. For some developers need more RAM, more CPUs. From this post, I'm going to show how to increase the memory and number of CPUs in a vagrant project. Run below commands <br /><pre>mkdir testProject1<br />cd testProject1<br />vagrant init<br /></pre>Then edit the Vagrant file like below. <br /><br /><script src="https://gist.github.com/dedunumax/62b88beb311ea44939ed.js"></script> Above changes will increase memory to 8GB and also it will add one more core. Run below commands to start the vagrant machine and get the SSH access. <br /><pre>vagrant up<br />vagrant ssh<br /></pre>If you have an existing project, you just have to add these lines. When you restart the project memory would be increased.</div>

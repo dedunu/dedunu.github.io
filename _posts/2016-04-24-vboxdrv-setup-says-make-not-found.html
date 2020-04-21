@@ -8,7 +8,7 @@ tags:
 - virtualization
 modified_time: '2019-07-09T15:03:07.508+03:00'
 blogger_id: tag:blogger.com,1999:blog-8327060682734922468.post-182920169139787537
-blogger_orig_url: https://www.dedunu.info/2016/04/vboxdrv-setup-says-make-not-found.html
+permalink: www.dedunu.info/2016/04/vboxdrv-setup-says-make-not-found.html
 ---
 
 <div dir="ltr" style="text-align: left;" trbidi="on">After you update the kernel you need to run vboxdrv setup. But if you are trying to compile it for the first time or after removing the build-essential package, you might see the below error.<br /><br /><pre>user@ubuntu:~$ sudo /etc/init.d/vboxdrv setup<br />[sudo] password for user:<br />Stopping VirtualBox kernel modules ...done.<br />Recompiling VirtualBox kernel modules ...failed!<br />  (Look at /var/log/vbox-install.log to find out what went wrong)<br />user@ubuntu:~$ cat /var/log/vbox-install.log<br />/usr/share/virtualbox/src/vboxhost/build_in_tmp: 62: <br />/usr/share/virtualbox/src/vboxhost/build_in_tmp: make: not found<br />/usr/share/virtualbox/src/vboxhost/build_in_tmp: 62: <br />/usr/share/virtualbox/src/vboxhost/build_in_tmp: make: not found<br />/usr/share/virtualbox/src/vboxhost/build_in_tmp: 62: <br />/usr/share/virtualbox/src/vboxhost/build_in_tmp: make: not found<br /></pre><br />Ubuntu needs build-essential to run above command. Run below command to install the build-essential.<br /><br /><pre>sudo apt-get install build-essentail<br />sudo /etc/init.d/vboxdrv setup<br /></pre><br />Then you can use the virtual box!</div>
