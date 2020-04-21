@@ -10,7 +10,7 @@ tags:
 - SQL Server
 modified_time: '2019-07-09T17:19:58.732+03:00'
 blogger_id: tag:blogger.com,1999:blog-8327060682734922468.post-5283795354811232645
-permalink: www.dedunu.info/2012/10/are-you-going-to-save-space-using-bit.html
+permalink: /2012/10/are-you-going-to-save-space-using-bit.html
 ---
 
 <div dir="ltr" style="text-align: left;" trbidi="on"><div align="justify">If you have Yes or No data to store in DB, what will you select as the data type? Most of the times you will select “Bit”. Because it only takes 1 bit to store data. And it is the best data type for this situation. But it takes more than a bit in SQL Server. If you have an only one-bit column in your table it will allocate 7 more extra bits to store your bit data.<br /><br /></div><div align="justify">And if you have two-bit typed fields in your table it will waste 6 more bytes. But if you are using 8-bit typed fields in your table, it will not waste any space. Otherwise, it will take space the same as char(1) or tinyint.&nbsp;</div></div>

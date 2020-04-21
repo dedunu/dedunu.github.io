@@ -9,7 +9,7 @@ tags:
 modified_time: '2020-02-26T20:33:43.540+02:00'
 thumbnail: https://1.bp.blogspot.com/-Yw-E1gGlmSc/Xla5xav5yrI/AAAAAAAABtQ/WgkBL9pdolwHa48yhNNEXFQq9VJ_EkG_QCLcBGAsYHQ/s72-c/Screenshot%2B2020-02-26%2Bat%2B6.32.09%2BPM.png
 blogger_id: tag:blogger.com,1999:blog-8327060682734922468.post-9109898898172844485
-permalink: www.dedunu.info/2020/02/mysqlmariadb-innodb-get-more.html
+permalink: /2020/02/mysqlmariadb-innodb-get-more.html
 ---
 
 <div dir="ltr" style="text-align: left;" trbidi="on"><div dir="ltr" style="text-align: left;" trbidi="on">I wanted to find out how many rows were modified by the current transaction. Seems like MariaDB doesn't have a straight forward way to retrieve the transaction ID. To narrow down transactions I used the current connection as the thread ID. You can run the below command to check the information about the transaction.&nbsp;</div><br /><script src="https://gist.github.com/dedunumax/603f3b622d055fb915c2a681f1cd779c.js"></script><br /> Here is an example:<br /><div class="separator" style="clear: both; text-align: center;"><a href="https://1.bp.blogspot.com/-Yw-E1gGlmSc/Xla5xav5yrI/AAAAAAAABtQ/WgkBL9pdolwHa48yhNNEXFQq9VJ_EkG_QCLcBGAsYHQ/s1600/Screenshot%2B2020-02-26%2Bat%2B6.32.09%2BPM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" data-original-height="1340" data-original-width="1600" src="https://1.bp.blogspot.com/-Yw-E1gGlmSc/Xla5xav5yrI/AAAAAAAABtQ/WgkBL9pdolwHa48yhNNEXFQq9VJ_EkG_QCLcBGAsYHQ/s1600/Screenshot%2B2020-02-26%2Bat%2B6.32.09%2BPM.png" /></a></div></div>
