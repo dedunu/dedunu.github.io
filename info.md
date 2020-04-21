@@ -1,6 +1,6 @@
 ---
 layout: page
-title:i Info 
+title: Info 
 permalink: /info/
 ---
 
