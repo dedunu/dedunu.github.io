@@ -21,7 +21,7 @@ header_pages:
 
 theme: minima
 
-paginate: 7
+paginate: 5
 
 plugins:
   - jekyll-paginate
