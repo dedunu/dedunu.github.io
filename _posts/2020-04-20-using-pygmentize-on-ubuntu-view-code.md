@@ -32,4 +32,4 @@ If you add an alias like below you will be able to use `pygmentize` as a short c
 alias ccat='pygmentize -g '
 ```
 
-![pygmentize in action](https://1.bp.blogspot.com/-dHZ4vfV9c7I/Xp3ae5aYvyI/AAAAAAAABzk/Q5URlY7mnTIl6XcDekdNP0vJYA0IiFS5gCK4BGAsYHg/s72-c/ezgif.com-video-to-gif%2B%25282%2529.gif)
+![pygmentize in action](https://1.bp.blogspot.com/-dHZ4vfV9c7I/Xp3ae5aYvyI/AAAAAAAABzk/Q5URlY7mnTIl6XcDekdNP0vJYA0IiFS5gCK4BGAsYHg/ezgif.com-video-to-gif%2B%25282%2529.gif)
