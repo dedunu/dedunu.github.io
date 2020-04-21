@@ -1,0 +1,16 @@
+---
+layout: post
+title: Using pygmentize on Ubuntu view code files
+date: '2020-04-20T20:20:00.003+03:00'
+author: Dedunu Dhananjaya
+tags:
+- terminal
+- Ubuntu
+- cli
+modified_time: '2020-04-21T00:36:39.140+03:00'
+thumbnail: https://1.bp.blogspot.com/-dHZ4vfV9c7I/Xp3ae5aYvyI/AAAAAAAABzk/Q5URlY7mnTIl6XcDekdNP0vJYA0IiFS5gCK4BGAsYHg/s72-c/ezgif.com-video-to-gif%2B%25282%2529.gif
+blogger_id: tag:blogger.com,1999:blog-8327060682734922468.post-6050592202121314782
+blogger_orig_url: https://www.dedunu.info/2020/04/using-pygmentize-on-ubuntu-view-code.html
+---
+
+<div dir="ltr" style="text-align: left;" trbidi="on">On the terminal, viewing code with colour might improve productivity. You can use&nbsp;<span style="font-family: &quot;courier new&quot; , &quot;courier&quot; , monospace;">pygmentize</span> to view code in colour. Install <span style="font-family: &quot;courier new&quot; , &quot;courier&quot; , monospace;">pygmentize</span> using below commands.<br /><br /><span style="font-family: &quot;courier new&quot; , &quot;courier&quot; , monospace;">$ sudo apt install python3-pip</span><br /><span style="font-family: &quot;courier new&quot; , &quot;courier&quot; , monospace;">$ pip3 install Pygments</span><br /><br /><div>You can use view code using:<br /><br /><span style="font-family: &quot;courier new&quot; , &quot;courier&quot; , monospace;">$ pygmentize -g /etc/profile.d/gawk.sh</span><br /><br /></div><div>If you add an alias like below you will be able to use <span style="font-family: &quot;courier new&quot; , &quot;courier&quot; , monospace;">pymentize</span> as a short command to your .bashrc or .zshrc.<br /><br /><span style="font-family: &quot;courier new&quot; , &quot;courier&quot; , monospace;">alias ccat='pygmentize -g '</span><br /><br /></div><div><div class="separator" style="clear: both; text-align: center;"><a href="https://1.bp.blogspot.com/-dHZ4vfV9c7I/Xp3ae5aYvyI/AAAAAAAABzk/Q5URlY7mnTIl6XcDekdNP0vJYA0IiFS5gCK4BGAsYHg/ezgif.com-video-to-gif%2B%25282%2529.gif" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" data-original-height="435" data-original-width="600" src="https://1.bp.blogspot.com/-dHZ4vfV9c7I/Xp3ae5aYvyI/AAAAAAAABzk/Q5URlY7mnTIl6XcDekdNP0vJYA0IiFS5gCK4BGAsYHg/ezgif.com-video-to-gif%2B%25282%2529.gif" /></a></div><div class="separator" style="clear: both; text-align: center;"><br /></div></div><div><div class="p1" style="background-color: #24081b; color: #eaeae7; font-family: &quot;jetbrainsmono nerd font mono&quot;; font-size: 13px; font-stretch: normal; font-variant-east-asian: normal; font-variant-numeric: normal; line-height: normal; margin: 0px;"><span class="s2" style="font-variant-ligatures: no-common-ligatures;"></span></div></div></div>

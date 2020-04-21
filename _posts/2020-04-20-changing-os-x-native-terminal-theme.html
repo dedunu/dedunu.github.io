@@ -1,0 +1,15 @@
+---
+layout: post
+title: Changing OS X native Terminal theme from commands
+date: '2020-04-20T18:52:00.001+03:00'
+author: Dedunu Dhananjaya
+tags:
+- terminal
+- Mac
+modified_time: '2020-04-21T00:37:28.035+03:00'
+thumbnail: https://1.bp.blogspot.com/-Lrl6zSgxNM0/Xp3K1GQ0bTI/AAAAAAAABwU/vJeKY0c-pYY73YgmbJvruqPuvKHljHtBACK4BGAsYHg/s72-c/ezgif.com-video-to-gif.gif
+blogger_id: tag:blogger.com,1999:blog-8327060682734922468.post-8537553659447546191
+blogger_orig_url: https://www.dedunu.info/2020/04/changing-os-x-native-terminal-theme.html
+---
+
+<div dir="ltr" style="text-align: left;" trbidi="on">I used iTerm2 for a while. But it is taking a lot of memory. I wanted to configure the native terminal application on OS X.<br /><div><br /></div><div>I have a virtual box and I used it for my development. I connect to a bridge to access production. I wanted the terminal to change colours/themes when I log in to each and every host.&nbsp;</div><div><br /></div><div>I downloaded a few themes from this repository:&nbsp;<a href="https://github.com/lysyi3m/macos-terminal-themes">https://github.com/lysyi3m/macos-terminal-themes</a>. Imported them to OS X terminal application.</div><div><br /></div><div>Since I am using <span style="font-family: Courier New, Courier, monospace;">zsh</span>, I added below code to <span style="font-family: Courier New, Courier, monospace;">.zshrc</span>. If you are on <span style="font-family: Courier New, Courier, monospace;">bash</span> please change <span style="font-family: Courier New, Courier, monospace;">.bash_profile</span> on your mac.</div><div><br /></div><script src="https://gist.github.com/dedunumax/469629ab990ca2398923af8fdc7eeae5.js"></script> <br /><div>Then I change&nbsp;<span style="font-family: Courier New, Courier, monospace;">.zshrc</span> on my virtual server again. It calls my mac to change the active profile.</div><div><br /></div><script src="https://gist.github.com/dedunumax/034f2b9c1240347383c39bbedbee0be2.js"></script> <br /><div>I use password-less login on all the servers.</div><div><br /></div><div class="separator" style="clear: both; text-align: center;"><a href="https://1.bp.blogspot.com/-Lrl6zSgxNM0/Xp3K1GQ0bTI/AAAAAAAABwU/vJeKY0c-pYY73YgmbJvruqPuvKHljHtBACK4BGAsYHg/ezgif.com-video-to-gif.gif" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" data-original-height="363" data-original-width="600" src="https://1.bp.blogspot.com/-Lrl6zSgxNM0/Xp3K1GQ0bTI/AAAAAAAABwU/vJeKY0c-pYY73YgmbJvruqPuvKHljHtBACK4BGAsYHg/ezgif.com-video-to-gif.gif" /></a></div><div></div></div>

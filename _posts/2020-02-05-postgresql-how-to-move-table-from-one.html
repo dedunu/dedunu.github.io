@@ -1,0 +1,15 @@
+---
+layout: post
+title: 'PostgreSQL: How to move a table from one schema to another?'
+date: '2020-02-05T15:11:00.002+02:00'
+author: Dedunu Dhananjaya
+tags:
+- database
+- SQL
+- postgres
+modified_time: '2020-02-05T15:11:47.686+02:00'
+blogger_id: tag:blogger.com,1999:blog-8327060682734922468.post-8392950321690119828
+blogger_orig_url: https://www.dedunu.info/2020/02/postgresql-how-to-move-table-from-one.html
+---
+
+I couldn't write anything down for a while. I had to move a table from one schema to another in Postgres. I had to do this on RDS. pg_dump and pg_restore tools doesn't allow you to change schema when you dump and restore.<br /><br />The easiest way is running below command:<br /><br /><span style="font-family: Courier New, Courier, monospace;">ALTER TABLE old_schema.table_you_want_to_move SET SCHEMA new_schema;</span>

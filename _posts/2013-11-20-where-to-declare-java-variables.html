@@ -1,0 +1,15 @@
+---
+layout: post
+title: Where to declare Java Variables?
+date: '2013-11-20T19:27:00.000+02:00'
+author: Dedunu Dhananjaya
+tags:
+- Java
+- jvm
+- garbage collector
+modified_time: '2013-11-20T19:27:27.738+02:00'
+blogger_id: tag:blogger.com,1999:blog-8327060682734922468.post-4042195065719114506
+blogger_orig_url: https://www.dedunu.info/2013/11/where-to-declare-java-variables.html
+---
+
+<div dir="ltr" style="text-align: left;" trbidi="on"><div dir="ltr" style="text-align: left;" trbidi="on"><div style="text-align: justify;">Recently I went to Java Meetup. And it was all about Garbage Collector. So I learned lot more about Garbage Collectors. So Dr. Daya's suggestions was not to declare variable in higher scopes unless we really know what we do. For a example, don't declare class level variables if we are only using it inside on method. Then I was thinking about doing some tests on variable declarations. I used following code:</div><div style="text-align: justify;"><br /><script src="https://gist.github.com/dedunumax/7566623.js"></script>Then I used following code to do see the difference.  Following code is declaring a variable in a higher scope(which is bad according to Dr.Daya). <br /><br /></div><script src="https://gist.github.com/dedunumax/7566642.js"></script>First Code execution time was <b>1756557171</b> ms.(Variable01.java)<br />Second Code execution time was <b>1826556296</b> ms.(Variable02.java)</div><div style="text-align: justify;"><br />With those statistics, it's clear that declaring objects(Strings) in relevant scopes improves performance. But primitive data types are different. So I did same code for a primitive data type. <br /><br /></div><script src="https://gist.github.com/dedunumax/7566654.js"></script><script src="https://gist.github.com/dedunumax/7566662.js"></script><br /><div style="text-align: justify;"><b>int</b> is a primitive data type. It will not behave like String did. Improvement is upside down here.</div><br />Third Code execution time was <b>1829664932</b> ms.(Variable03.java)<br />Forth Code execution time was <b>1681147372</b> ms.(Variable04.java)<br /><br /> <div style="text-align: justify;">Those statistics were collected from same machine with same condition. And I ran those programs against JRE 1.6.0_45. I saw a difference in result, when I ran those programs on JRE 1.7.0_45. Now I'm digging into it!</div></div>

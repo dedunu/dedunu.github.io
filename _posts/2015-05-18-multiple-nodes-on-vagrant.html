@@ -1,0 +1,13 @@
+---
+layout: post
+title: Multiple nodes on Vagrant
+date: '2015-05-18T15:38:00.001+03:00'
+author: Dedunu Dhananjaya
+tags:
+- vagrant
+modified_time: '2019-07-09T18:12:25.102+03:00'
+blogger_id: tag:blogger.com,1999:blog-8327060682734922468.post-5768125229763797131
+blogger_orig_url: https://www.dedunu.info/2015/05/multiple-nodes-on-vagrant.html
+---
+
+<div dir="ltr" style="text-align: left;" trbidi="on">Recently I started working with Vagrant. A vagrant is a good tool that you can use for development. From this post, I'm going to explain how to create multiple nodes on the Vagrant project. <br /><pre>mkdir testProject<br />cd testProject<br />vagrant init<br /></pre><br />If you run above commands, it will create a Vagrant project for you. Now we have to do changes to the vagrant file. Your initial vagrant file will look like below. <br /><script src="https://gist.github.com/dedunumax/e67183ff613083fb7617.js"></script> You have to edit Vagrantfile add content like below. <br /><script src="https://gist.github.com/dedunumax/b1190e9177e75e33d21c.js"></script> Above sample vagrant file will create three nodes. Now run below command to start Vagrant virtual machines. <br /><pre>vagrant up<br /></pre><br />If you followed the instruction properly, you will get an output like below. <br /><script src="https://gist.github.com/dedunumax/467280aff02bccd0b9a2.js"></script> If you want to connect to the master node, run below command. <br /><pre>vagrant ssh master<br /></pre>If you want to connect to slave1 node, run below command. <br /><pre>vagrant ssh slave1<br /></pre>Whatever the machine you want to connect you just have to type vagrant ssh.<nodename>&nbsp;Hope this will help you!</nodename></div>

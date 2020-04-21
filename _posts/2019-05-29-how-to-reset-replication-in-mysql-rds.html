@@ -1,0 +1,17 @@
+---
+layout: post
+title: How to reset replication in MySQL/MariaDB RDS?
+date: '2019-05-29T23:57:00.002+03:00'
+author: Dedunu Dhananjaya
+tags:
+- mysql
+- rds
+- replication
+- mariadb
+- aws
+modified_time: '2019-07-09T18:22:05.328+03:00'
+blogger_id: tag:blogger.com,1999:blog-8327060682734922468.post-2793092761320651711
+blogger_orig_url: https://www.dedunu.info/2019/05/how-to-reset-replication-in-mysql-rds.html
+---
+
+<div dir="ltr" style="text-align: left;" trbidi="on"><span style="font-family: &quot;courier new&quot; , &quot;courier&quot; , monospace;">RESET SLAVE; </span>doesn't work in AWS MySQL RDS. You should use the below command to stop replication. <br /><br /><script src="https://gist.github.com/dedunumax/b11f4be7665db9121b9ad7854729da08.js"></script> <br />&nbsp;You will see something like an error message. You can safely ignore that. Try SLAVE STATUS\G. If you get an empty set, your instance has successfully reset the replication. </div>

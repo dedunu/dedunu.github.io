@@ -1,0 +1,15 @@
+---
+layout: post
+title: How to fix InsecurePlatformWarning on Ubuntu?
+date: '2016-01-29T13:20:00.001+02:00'
+author: Dedunu Dhananjaya
+tags:
+- Ubuntu
+- pip
+- python
+modified_time: '2019-07-09T18:18:51.224+03:00'
+blogger_id: tag:blogger.com,1999:blog-8327060682734922468.post-983141212100200690
+blogger_orig_url: https://www.dedunu.info/2016/01/how-to-fix-insecureplatformwarning-on.html
+---
+
+<div dir="ltr" style="text-align: left;" trbidi="on"><div style="text-align: justify;">Python modules sometimes give issues. We got below warning from a python application.</div><br /><span style="font-family: &quot;courier new&quot; , &quot;courier&quot; , monospace;">/usr/local/lib/python2.7/dist-packages/requests/packages/urllib3/util/ssl_.py:120: InsecurePlatformWarning: A true SSLContext object is not available. This prevents urllib3 from configuring SSL appropriately and may cause certain SSL connections to fail. For more information, see https://urllib3.readthedocs.org/en/latest/security.html#insecureplatformwarning.<br />&nbsp; InsecurePlatformWarning</span><br /><br /><div style="text-align: justify;">After small research we found out, this might be an issue related to the outdated module. We ran below commands in that server. After that warning didn't occur.</div><span style="font-family: &quot;courier new&quot; , &quot;courier&quot; , monospace;"><br /></span><span style="font-family: &quot;courier new&quot; , &quot;courier&quot; , monospace;">$ sudo apt-get install build-essential python-dev libffi-dev libssl-dev</span><br /><span style="font-family: &quot;courier new&quot; , &quot;courier&quot; , monospace;">$ sudo pip install --upgrade ndg-httpsclient</span></div>

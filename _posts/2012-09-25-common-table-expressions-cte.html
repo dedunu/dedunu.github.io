@@ -1,0 +1,18 @@
+---
+layout: post
+title: Common Table Expressions (CTE)
+date: '2012-09-25T16:51:00.000+03:00'
+author: Dedunu Dhananjaya
+tags:
+- SQL
+- CTE
+- T-SQL
+- TSQL
+- SQL Server
+- Common Table Expressions
+modified_time: '2019-07-09T17:13:53.123+03:00'
+blogger_id: tag:blogger.com,1999:blog-8327060682734922468.post-525292675506453519
+blogger_orig_url: https://www.dedunu.info/2012/09/common-table-expressions-cte.html
+---
+
+<div dir="ltr" style="text-align: left;" trbidi="on"><del><br /></del><pre class="code"><span style="color: blue;">USE </span><span style="color: teal;">AdventureWorks2012</span><span style="color: blue;">GO<br /></span><span style="color: green;">--Defining CTE</span><span style="color: blue;">WITH </span><span style="color: teal;">Empl</span><span style="color: blue;">AS</span><span style="color: grey;">(<br />    </span><span style="color: blue;">SELECT </span><span style="color: grey;">* </span><span style="color: blue;">FROM </span><span style="color: teal;">HumanResources</span><span style="color: grey;">.</span><span style="color: teal;">Employee</span><span style="color: grey;">)<br /></span><span style="color: green;">--Using CTE</span><span style="color: blue;">SELECT </span><span style="color: teal;">Empl</span><span style="color: grey;">.* </span><span style="color: blue;">FROM </span><span style="color: teal;">Empl</span><span style="color: blue;">GO</span></pre><br />And you can use several CTE’s in one statement.<br /><br /><span style="color: blue;">USE </span><span style="color: teal;">AdventureWorks2012 </span><span style="color: blue;">GO </span><br /><br /><span style="color: green;">--Defining CTE </span><br /><br /><span style="color: blue;"> WITH </span><span style="color: teal;">Empl </span><span style="color: blue;">AS </span><span style="color: grey;">( </span><span style="color: blue;">SELECT </span><span style="color: grey;">* </span><span style="color: blue;">FROM </span><span style="color: teal;">HumanResources</span><span style="color: grey;">.</span><span style="color: teal;">Employee </span><span style="color: grey;">), </span><br /><br /><span style="color: teal;">Pers </span><span style="color: blue;">AS </span><span style="color: grey;">( </span><span style="color: blue;">SELECT </span><span style="color: grey;">* </span><span style="color: blue;">FROM </span><span style="color: teal;">Person</span><span style="color: grey;">.</span><span style="color: teal;">Person </span><span style="color: grey;">) </span><br /><br /><span style="color: green;">--Using CTE </span><br /><br /><span style="color: blue;">SELECT </span><span style="color: teal;">Empl</span><span style="color: grey;">.*, </span><span style="color: teal;">Pers</span><span style="color: grey;">.* </span><br /><br /><span style="color: blue;">FROM </span><span style="color: teal;">Empl </span><span style="color: grey;">INNER JOIN </span><span style="color: teal;">Pers </span><br /><br /><span style="color: blue;">ON </span><span style="color: teal;">Empl</span><span style="color: grey;">.</span><span style="color: teal;">BusinessEntityID </span><span style="color: grey;">= </span><span style="color: teal;">Pers</span><span style="color: grey;">.</span><span style="color: teal;">BusinessEntityID </span><br /><br /><span style="color: blue;">GO </span><br /><br /></div>

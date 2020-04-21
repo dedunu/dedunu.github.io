@@ -1,0 +1,19 @@
+---
+layout: post
+title: How to specify ReleaseLabel for EMR cluster with Boto2
+date: '2016-01-05T20:13:00.000+02:00'
+author: Dedunu Dhananjaya
+tags:
+- emr
+- ReleaseLabel
+- python
+- boto3
+- boto
+- boto2
+- aws
+modified_time: '2019-07-09T18:17:36.701+03:00'
+blogger_id: tag:blogger.com,1999:blog-8327060682734922468.post-197441223377865009
+blogger_orig_url: https://www.dedunu.info/2016/01/how-to-specify-releaselabel-for-emr.html
+---
+
+<div dir="ltr" style="text-align: left;" trbidi="on"><div style="text-align: justify;">Boto is the AWS SDK for Python. You can create clusters,  instances or anything using Boto. But sometimes Boto imposes limitations. I wanted to create an EMR cluster with RelaseLabel 4.2.0. But we were using Boto2. ReleaseLabel is an option in Boto3. For Boto2 there was no documented option for RelaseLabel.</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">So I found out a way to create EMR (Elastic Map Reduce) clusters using Boto 2 with a given ReleaseLabel.</div><br /><script src="https://gist.github.com/dedunumax/f362c3a17a9027ebed2b.js"></script><br /><div style="text-align: justify;">I have commented AMI Version because ReleaseLabel will pick AMI version correctly. The above program will print the cluster ID in the terminal.&nbsp;</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">Sometimes you might get an issue saying "No Default VPC found.". This is a network related issue. In that case, you might need to specify subnet ID for EMR cluster. Then you don't need to specify an availability zone.</div><br /><script src="https://gist.github.com/dedunumax/b7a0f54d2535f74e7542.js"></script></div>
