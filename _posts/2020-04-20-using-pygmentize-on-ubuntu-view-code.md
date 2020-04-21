@@ -10,7 +10,7 @@ tags:
 modified_time: '2020-04-21T00:36:39.140+03:00'
 thumbnail: https://1.bp.blogspot.com/-dHZ4vfV9c7I/Xp3ae5aYvyI/AAAAAAAABzk/Q5URlY7mnTIl6XcDekdNP0vJYA0IiFS5gCK4BGAsYHg/s72-c/ezgif.com-video-to-gif%2B%25282%2529.gif
 blogger_id: tag:blogger.com,1999:blog-8327060682734922468.post-6050592202121314782
-blogger_orig_url: https://www.dedunu.info/2020/04/using-pygmentize-on-ubuntu-view-code.html
+permalink: /2020/04/using-pygmentize-on-ubuntu-view-code.html
 ---
 
 On the terminal, viewing code with colour might improve productivity. You can use `pygmentize` to view code in colour. Install `pygmentize` using below commands.
