@@ -7,7 +7,7 @@ description: >
 
 show_excerpts: false 
 
-paginate: 5
+
 
 minima:
   date_format: "%-d %B %Y"
@@ -20,6 +20,8 @@ header_pages:
  - info.md
 
 theme: minima
+
+paginate: 5
 
 plugins:
   - jekyll-paginate
