@@ -7,6 +7,9 @@ description: >
 
 show_excerpts: false 
 
+paginate: 5
+paginate_path: "/blog/page:num/"
+
 minima:
   date_format: "%-d %B %Y"
   
