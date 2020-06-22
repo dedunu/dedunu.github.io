@@ -68,10 +68,10 @@ title: ""
 </p>
 
 <p style="text-align:left;">• Associate Technical Specialist - <i>Pearson, Sri Lanka</i><span style="float:right;">April 2017 - November 2018</span><br/>
-&nbsp;&nbsp;– Providing technical leadership to team members<br/>
-&nbsp;&nbsp;– Working with product managers to transform requirements into solutions<br/>
-&nbsp;&nbsp;– Managing Kubernetes clusters<br/>
-&nbsp;&nbsp;– Improving the reliability of the system<br/> 
+&nbsp;&nbsp;– Provided technical leadership to team members<br/>
+&nbsp;&nbsp;– Worked with product managers to transform requirements into solutions<br/>
+&nbsp;&nbsp;– Managed Kubernetes clusters<br/>
+&nbsp;&nbsp;– Improved the reliability of the system<br/> 
 </p>
 
 <p style="text-align:left;">• Senior Software Engineer - <i>Pearson, Sri Lanka</i><span style="float:right;">August 2015 - March 2017</span><br/>
@@ -103,7 +103,7 @@ title: ""
 
 <p style="text-align:left;">• Intern - <i>Pearson, Sri Lanka</i><span style="float:right;">September 2012 - December 2013</span><br/>
 &nbsp;&nbsp;– Responsible for MongoDB Production Monitoring<br/>
-&nbsp;&nbsp;– Designing and Implementing Databases/Database objects with MongoDB, Cassandra, and MS SQL Server<br/>
+&nbsp;&nbsp;– Designed and Implemented Databases/Database objects with MongoDB, Cassandra, and MS SQL Server<br/>
 &nbsp;&nbsp;– Database Optimization<br/>
 </p>
 
