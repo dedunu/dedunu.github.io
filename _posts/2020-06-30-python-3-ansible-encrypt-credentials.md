@@ -15,12 +15,12 @@ permalink: /2020/06/python3-encrypting-ansible-vault-programmatically.html
 from ansible.parsing.vault import VaultEditor, VaultSecret
 
 vault_password = 'vault_password123'
-secret_valut = 'super_secret_123'
+secret_value = 'super_secret_123'
 vault_id = None
 
 editor = VaultEditor()
 secret = VaultSecret(bytes(vault_password, 'utf-8'))
-encrypted_password = editor.encrypt_bytes(secret_valut, secret, vault_id=vault_id).decode("utf-8")
+encrypted_password = editor.encrypt_bytes(secret_value, secret, vault_id=vault_id).decode("utf-8")
 
 encrypted_text = 'secret_token: !vault |\n      ' + encrypted_password.replace('\n', '\n      ')
 
