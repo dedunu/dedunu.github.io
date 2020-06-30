@@ -12,8 +12,7 @@ permalink: /2020/06/python3-encrypting-ansible-vault-programmatically.html
 `ansible` is the only module needed for this script.  If you don't need to specify `vault_id`, below code would work.
 
 ```python
-from ansible.parsing.vault import VaultEditor
-from ansible.parsing.vault import VaultSecret
+from ansible.parsing.vault import VaultEditor, VaultSecret
 
 vault_password = 'vault_password123'
 secret_valut = 'super_secret_123'
