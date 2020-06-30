@@ -26,7 +26,6 @@ encrypted_password = editor.encrypt_bytes(secret_valut, secret, vault_id=vault_i
 encrypted_text = 'secret_token: !vault |\n      ' + encrypted_password.replace('\n', '\n      ')
 
 print(encrypted_text)
-
 ```
 
 Omits: 
