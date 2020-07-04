@@ -16,7 +16,7 @@ Workaround for all these concerns is writing in-line actions using `@actions/git
 
 Adding a label can be done with below workflow definition. 
 
-```YAML
+```yaml
 name: Add a label
 on:
   pull_request:
@@ -50,7 +50,7 @@ await github.issues.createComment({
 
 You can define more tasks using same method. Below example would check for files changed. If `sample` text was found in the pull request it will add a reviewer.
 
-```YAML
+```yaml
 name: Add a comment
 on:
   pull_request:
@@ -98,6 +98,7 @@ jobs:
 ```
 
 Sample repository - <https://github.com/dedunu/github-actions>
+
 Actions in action - <https://github.com/dedunu/github-actions/pull/9>
 
 When you create pull requests, you can see the workflows starting.
