@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Stopping unused RDS using AWS Lambda'
+title: 'Stopping unused RDS instances using AWS Lambda'
 date: '2020-07-04T23:04:00.001+02:00'
 author: Dedunu Dhananjaya
 tags:
