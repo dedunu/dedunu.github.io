@@ -100,4 +100,16 @@ jobs:
 Sample repository - <https://github.com/dedunu/github-actions>
 Actions in action - <https://github.com/dedunu/github-actions/pull/9>
 
+When you create pull requests, you can see the workflows starting.
+
+![](/assets/4.png)
+
+You can see it added a label, comment, and reviewer.
+
+![](/assets/5.png)
+
+Logs can be found in the checks section. Logging helps you to debug actions. Be careful not to print GITHUB_TOKEN!
+
+![](/assets/6.png)
+
 [1] - <https://julienrenaux.fr/2019/12/20/github-actions-security-risk/> 
