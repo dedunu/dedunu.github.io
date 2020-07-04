@@ -113,4 +113,6 @@ Logs can be found in the checks section. Logging helps you to debug actions. Be 
 
 ![](/assets/6.png)
 
+API documentation can be found here - <https://octokit.github.io/rest.js/v18>
+
 [1] - <https://julienrenaux.fr/2019/12/20/github-actions-security-risk/> 
