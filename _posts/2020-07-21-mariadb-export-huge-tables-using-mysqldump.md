@@ -33,5 +33,5 @@ GRANT SELECT ON database_name.table_name TO some_user@'%';
 Then I exported the table using altered user. 
 
 ```console
-mysqldump -u some_user -p --quick database_name table_name > some_file.sql
+$ mysqldump -u some_user -p --quick database_name table_name > some_file.sql
 ```
