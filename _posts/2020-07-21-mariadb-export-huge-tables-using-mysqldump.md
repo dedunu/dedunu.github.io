@@ -23,7 +23,7 @@ You can try using the `--quick` option. It exported more than double the amount 
 $ mysqldump --quick  database_name table_name > some_file.sql
 ```
 
-So I extended the max_statement_time for the user using below command.
+So I extended the `max_statement_time` for the user using below command.
 
 ```sql
 GRANT USAGE ON *.* TO some_user@'%' WITH MAX_STATEMENT_TIME 43200;
