@@ -23,14 +23,14 @@ You can try using the `--quick` option. It exported more than double the amount 
 $ mysqldump --quick  database_name table_name > some_file.sql
 ```
 
-So I extended the `max_statement_time` for the user using below command.
+To overcome this problem, I had to extend the `max_statement_time` for the user using the below command.
 
 ```sql
 GRANT USAGE ON *.* TO some_user@'%' WITH MAX_STATEMENT_TIME 43200;
 GRANT SELECT ON database_name.table_name TO some_user@'%';
 ```
 
-Then I exported the table using altered user. 
+I exported the table using the configured user successfully. 
 
 ```console
 $ mysqldump -u some_user -p --quick database_name table_name > some_file.sql
