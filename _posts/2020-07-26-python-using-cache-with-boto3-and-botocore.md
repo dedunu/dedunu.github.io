@@ -12,7 +12,7 @@ tags:
 permalink: /2020/07/python-using-cache-with-boto3-and-botocore.html
 ---
 
-I wanted to develop a CLI tool using `boto3`. If MFA is enabled it will keep asking for a token everytime application tries to create a new session. It is bit annoying to enter token everytime. I found a way to resuse the credential cache.
+I wanted to develop a CLI tool using `boto3`. If MFA is enabled, it will keep asking for a token every time application tries to create a new session. It is a bit annoying to enter the token every time. I found a way to reuse the credential cache.
 
 ```python
 #!/usr/bin/env python3
