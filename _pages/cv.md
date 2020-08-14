@@ -60,7 +60,7 @@ title: ""
 ### <i class="far fa-building"></i> Professional Experience
 ---
 
-<p style="text-align:left;">• Database Engineer - <i>Transferwise, Estonia</i><span style="float:right;">December 2018 - to date</span><br/>
+<p style="text-align:left;">• Database Engineer - <i>TransferWise, Estonia</i><span style="float:right;">December 2018 - to date</span><br/>
 &nbsp;&nbsp;– Automating DB Provisioning on AWS RDS <br/>
 &nbsp;&nbsp;– Responsible for monitoring 200+ production databases<br/>
 &nbsp;&nbsp;– Provision infrastructure using Terraform and Ansible<br/>
