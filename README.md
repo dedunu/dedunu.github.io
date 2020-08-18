@@ -1,1 +1,1 @@
-# https://www.dedunu.info/
+# https://dedunu.info/
