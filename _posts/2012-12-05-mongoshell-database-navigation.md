@@ -18,53 +18,53 @@ First to execute those commands you should log into MongoShell. In windows mongo
 **How to take database List?**  
 
 ```javascript
-> show dbs  
+show dbs  
 ```
 
 **How to check the database that you are currently using?**  
 
 ```javascript
-> db  
+db  
 ```
 
 or  
 
 ```javascript
-> print ( db );  
+print(db);  
 ```
 
 **How to change to a new database?**  
 
 ```javascript
-> use <database name>  
+use <database name>  
 ```
 
 E.g:-  
 
 ```javascript
-> use AdventureWorks2012 
+use AdventureWorks2012 
 ```
 
 **How to take the list of Collection in the current Database?**  
 
 ```javascript
-> show collections  
+show collections  
 ```
   
 or  
 
 ```javascript
-> db.getCollectionNames();  
+db.getCollectionNames();  
 ```
   
 **How to take the list of Users in Database?**  
 
 ```javascript
-> show users  
+show users  
 ```
   
 or  
 
 ```javascript
-> db.system.users.find();
+db.system.users.find();
 ```
