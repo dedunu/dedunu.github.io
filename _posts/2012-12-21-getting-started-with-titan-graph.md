@@ -86,10 +86,10 @@ v2.setProperty('type','institute');
 Now we have three nodes. Two of them are Persons and the other one is an institute.  Now we are going to create relationships between those three nodes.  
   
 ```groovy
-> e1 = g.addEdge(null, v, v2, 'study in');  
-> e2 = g.addEdge(null, v1, v2, 'study in');  
-> e3 = g.addEdge(null, v, v1, 'knows');  
-> e4 = g.addEdge(null, v1, v, 'knows');
+e1 = g.addEdge(null, v, v2, 'study in');  
+e2 = g.addEdge(null, v1, v2, 'study in');  
+e3 = g.addEdge(null, v, v1, 'knows');  
+e4 = g.addEdge(null, v1, v, 'knows');
 ```
   
 Now you have a graph like this.  
