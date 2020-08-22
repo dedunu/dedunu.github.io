@@ -15,16 +15,16 @@ At the first date I heard about NoSQL DBMS, I felt insane. Then I got eager to l
   
 In that video tutorial, they explain how to just run MongoDB on Windows Environment. First of all, you should have a data directory. For that, you should create two folders in the drive that you are planning to install MongoDB. Let's assume that we are going to install MongoDB on D: Drive.  
   
-Then you should create two directories(Folders) in D: drive  
+Then you should create two directories(Folders) in `D:` drive  
 
-*   D:\\data
-*   D:\\data\\db
+*   `D:\data`
+*   `D:\data\db`
 
 You can manually change the data path but for a beginner, it's better to use the default path. And if you are trying to install it as Service you need to create a log folder.  
 
-*   D:\\log
+*   `D:\log`
     
-Then open a command prompt and go to the MongoDB bin. I assume you have pasted it on `D:\\` drive. your directory path will look like this `D:\mongodb-win32-x86\_64-2.2.0\bin.`  
+Then open a command prompt and go to the MongoDB bin. I assume you have pasted it on `D:\` drive. your directory path will look like this `D:\mongodb-win32-x86\_64-2.2.0\bin.`  
   
 After that, you should run mongod.exe to install MongoDB as a windows service.  
 
