@@ -42,16 +42,3 @@ I repeat again this will wipe all your data. Luckily everything was backed up in
    ![Step 6](https://1.bp.blogspot.com/-HfQpcaXt38M/XUmHIWTqeAI/AAAAAAAAGWc/TgNQOwzpHU4KyohtW75zVjVx75EGvyR7gCLcBGAs/s640/IMG_6173.jpg)
 
 It may take a while to start the phone. Now all your data is wiped and the system is restored. Now you have to log in and set up! 
-
-
-
-<div align="center">
- <script data-ad-client="ca-pub-9893696410841309" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-
-<!-- Homepage Leaderboard -->
-<ins class="adsbygoogle"
-style="display:inline-block;width:728px;height:90px"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-</div>
