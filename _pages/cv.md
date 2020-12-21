@@ -25,7 +25,7 @@ title: ""
 
 <center style="font-size:32px"><b>Dedunu Dhananjaya</b></center>
 
-<center><i class="fas fa-at"></i> <a href="mailto:admin@dedunu.info">admin[at]dedunu[dot]info</a>  |  <i class="fab fa-linkedin-in"></i> <a href="https://www.linkedin.com/in/dedunu/">LinkedIn</a>  |  <i class="fab fa-stack-overflow"></i> <a href="https://askubuntu.com/users/125365/dedunumax">dedunumax</a>  |  <i class="fab fa-github-alt"></i> <a href="https://github.com/dedunumax">dedunumax</a></center>
+<center><i class="fab fa-linkedin-in"></i> <a href="https://www.linkedin.com/in/dedunu/">LinkedIn</a>  |  <i class="fab fa-stack-overflow"></i> <a href="https://askubuntu.com/users/125365/dedunumax">dedunumax</a>  |  <i class="fab fa-github-alt"></i> <a href="https://github.com/dedunumax">dedunumax</a></center>
 
 
 <p style='text-align: justify;'>
