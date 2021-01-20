@@ -1,6 +1,6 @@
 ---
 layout: page
-title: info 
+title: Enfys (PVT) LTD. 
 ---
 
 Registration No.: PV XXXXXXXXX
