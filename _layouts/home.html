@@ -11,6 +11,27 @@
     <link rel="apple-touch-icon" href="favicon.png">
   </head>
   <body>
-    {{ content }}
+    {% if site.data.menu and site.paginate and site.paginate_path and paginator.page > 1 %}
+      {% include menu.html %}
+    {% elsif site.paginate and site.paginate_path and paginator.page > 1 %}
+      {% include back-link.html %}
+    {% else %}
+      <header class="site-masthead">
+        {% if site.title %}
+          <h1>
+            {{ site.title }}
+          </h1>
+        {% endif %}
+        {% if site.title %}
+          <h2>
+            {{ site.description }}
+          </h2>
+        {% endif %}
+      </header>
+    {% endif %}
+
+    <h1 class="divided"></h1>
+
+    <center><a href="mailto:contact@enfys.lk" style="color:black;">contact[at]enfys[dot]lk</a></center>
   </body>
 </html>
