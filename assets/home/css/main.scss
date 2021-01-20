@@ -6,7 +6,7 @@
 $asset_url: '{{ '/assets/home' | absolute_url }}';
 
 @import 
-  "reset",
+  "home/reset",
   "variables",
   "syntax-highlighting",
   "mixins",
