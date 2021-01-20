@@ -3,7 +3,7 @@ layout: page
 title: "Enfys (PVT) LTD."
 ---
 
-Registration No.: PV XXXXXXXXX
+Reg No. PVXXXXXXXXX
 
 
 Address: 222/1D, Meegahawaththa, Delgoda, 11700, Delgoda.
