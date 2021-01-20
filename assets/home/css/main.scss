@@ -7,15 +7,15 @@ $asset_url: '{{ '/assets/home' | absolute_url }}';
 
 @import 
   "home/reset",
-  "variables",
-  "syntax-highlighting",
-  "mixins",
-  "font",
-  "base",
-  "masthead",
-  "menu",
-  "post-list",
-  "article",
-  "footnotes",
-  "search"
+  "home/variables",
+  "home/syntax-highlighting",
+  "home/mixins",
+  "home/font",
+  "home/base",
+  "home/masthead",
+  "home/menu",
+  "home/post-list",
+  "home/article",
+  "home/footnotes",
+  "home/search"
 ;
