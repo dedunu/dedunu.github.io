@@ -15,7 +15,7 @@ Telephone: +94 71 944 2530
 Email: [capital{at}dedunu{dot}info](mailto:capital@dedunu.info)
 
 
-Twitter: [@DedunuCapita](https://twitter.com/DedunuCapital)
+Twitter: [@DedunuCapital](https://twitter.com/DedunuCapital)
 
 
 [« Back](https://dedunu.info/)
