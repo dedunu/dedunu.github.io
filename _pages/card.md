@@ -5,8 +5,8 @@ title: "Dedunu Capital (Private) Limited"
 ---
 
 ### Dedunu Dhananjaya
-
 ***Director***
+
 
 <table class="tab">
   <tr>
