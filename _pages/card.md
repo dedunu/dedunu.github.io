@@ -3,12 +3,9 @@ layout: page
 permalink: /card
 title: "Dedunu Dhananjaya"
 ---
-Director
-
-Dedunu Capital (Private) Limited
-
-
-
+Director<br />
+Dedunu Capital (Private) Limited<br />
+<br />
 <table class="tab">
   <tr>
     <td class="first">Telephone</td>
