@@ -29,4 +29,6 @@ title: "Dedunu Capital (Private) Limited"
 .tab .second {border-top:1px solid #CCC;box-shadow: inset 0 1px 0 #CCC;}​
 </style>
 
-![](https://dedunu.info/assets/qr.png)
+<center>
+<img src="https://dedunu.info/assets/qr.png" />
+</center>
