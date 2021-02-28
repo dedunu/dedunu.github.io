@@ -19,7 +19,7 @@ title: "Dedunu Capital (Private) Limited"
   </tr>
   <tr>
     <td class="first">Email</td>
-    <td class="first">[admin@dedunu.info](mailto:admin@dedunu.info)</td>
+    <td class="first"><a href='mailto:admin@dedunu.info'>admin@dedunu.info</a></td>
   </tr>
 </table>
 
