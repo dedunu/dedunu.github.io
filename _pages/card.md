@@ -4,6 +4,8 @@ permalink: /card
 title: "Dedunu Dhananjaya"
 ---
 Director
+Dedunu Capital (Private) Limited
+
 
 <table class="tab">
   <tr>
