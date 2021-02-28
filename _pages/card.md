@@ -1,12 +1,9 @@
 ---
 layout: page
 permalink: /card
-title: "Dedunu Capital (Private) Limited"
+title: "Dedunu Dhananjaya"
 ---
-
-### Dedunu Dhananjaya
-***Director***
-
+Director
 
 <table class="tab">
   <tr>
@@ -20,6 +17,10 @@ title: "Dedunu Capital (Private) Limited"
   <tr>
     <td class="first">Email</td>
     <td class="first"><a href='mailto:admin@dedunu.info'>admin@dedunu.info</a></td>
+  </tr>
+  <tr>
+    <td class="first">Website</td>
+    <td class="first"><a href='https://dedunu.info'>https://dedunu.info</a></td>
   </tr>
 </table>
 
