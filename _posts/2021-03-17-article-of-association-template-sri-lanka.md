@@ -18,4 +18,4 @@ They have given a detailed guide too. But drafting the article of association wa
 
 I prepared a template for anyone else to use. It can be downloaded from [here](/assets/Sri_Lanka_Private_Limited_Company_Article_of_Association_Template.zip)
 
-Make sure you leave enough free space on the first page of the article of association, officers want to add some system-generated information there. 
+Make sure you leave enough free space on the first page of the article of association, officers want to add few lines of system-generated information. 
