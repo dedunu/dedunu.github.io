@@ -1,0 +1,19 @@
+---
+layout: default
+---
+<section class="post">
+  <h2>{{ page.title }}</h2>
+  {{ content }}
+  <span class="meta"><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time> &middot; {% for tag in page.tags %}
+    {{tag}}{% unless forloop.last %}, {% endunless %}{% endfor %}</span>  
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+  <ins class="adsbygoogle"
+    style="display:block"
+    data-ad-client="ca-pub-9893696410841309"
+    data-ad-slot="4234796933"
+    data-ad-format="auto"
+    data-full-width-responsive="true"></ins>
+  <script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
+</section>
