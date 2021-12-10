@@ -31,7 +31,7 @@ title: ""
 <p style='text-align: justify;'>
   I’m a dataphile fascinated by technology, with 8+ years of production experience. Was the youngest NoSQL DBA (MongoDB & Cassandra) at Pearson. Joined the first “social-good Big data” attempt in South Asia (Big Data for Development, LIRNEasia) which used over 10 million Sri Lankan citizens’ Transaction Generated Information (TGI). Moreover, I have tuned big data solutions as well as developed big data pipelines from scratch in Sri Lanka, Bangladesh, and the United States.
 </p>
-
+<br />
 
 ### <i class="fas fa-tools"></i> Skills & Technologies
 ---
@@ -56,6 +56,7 @@ title: ""
 </table>
 
 
+<br />
 
 ### <i class="far fa-building"></i> Professional Experience
 ---
@@ -107,6 +108,8 @@ title: ""
 &nbsp;&nbsp;– Database Optimization<br/>
 </p>
 
+<br />
+
 ### <i class="fas fa-university"></i> Education & Professional Training
 ---
 
@@ -119,6 +122,7 @@ title: ""
 </p>
 
 
+<br />
 
 ### <i class="fas fa-award"></i> Awards
 ---
@@ -128,6 +132,7 @@ title: ""
 • Winner of the Pan Pearson Hackathon 2015 in the “Outside Pearson value” category by presenting the Student Probabilistic Instantaneous Knowledge Evaluation system using Naive Bayes classifier
 
 
+<br />
 
 ### <i class="fas fa-scroll"></i> Projects & Publications
 ---
