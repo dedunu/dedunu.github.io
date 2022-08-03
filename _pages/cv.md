@@ -62,6 +62,15 @@ title: ""
 ### <i class="far fa-building"></i> Professional Experience
 ---
 
+<p style="text-align:left;">• Director - <i>Yaco, Sri Lanka</i><span style="float:right;">June 2022 - to date</span><br/>
+</p>
+
+<p style="text-align:left;">• Director - <i>Dedunu Equity, Estonia</i><span style="float:right;">December 2021 - to date</span><br/>
+</p>
+
+<p style="text-align:left;">• Director - <i>Dedunu Capital, Sri Lanka</i><span style="float:right;">March 2021 - to date</span><br/>
+</p>
+
 <p style="text-align:left;">• Database Engineer - <i>Wise, Estonia</i><span style="float:right;">December 2018 - to date</span><br/>
 &nbsp;&nbsp;– Automating DB Provisioning on AWS RDS <br/>
 &nbsp;&nbsp;– Responsible for monitoring 200+ production databases<br/>
