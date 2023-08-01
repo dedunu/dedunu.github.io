@@ -1,0 +1,70 @@
+html {
+  height: 100%;
+}
+
+body {
+  overflow: hidden;
+  min-height: 100%;
+  font-family: 'DM Serif Display', serif;
+  background: #222 url('https://cdn.dedunu.info/dedunu/images/background.jpg') no-repeat center center;
+  background-size: cover;
+}
+
+a, a:visited {
+  color: #fff;
+}
+
+a:hover, a:active {
+  color: #3c53ff;
+}
+
+ul {
+  padding-left: 18px;
+}
+
+footer {
+  color: #fff;
+  padding: 64px;
+  font-size: 16px;
+}
+
+footer h1 {
+  text-transform: uppercase;
+  font-size: 48px;
+  letter-spacing: 8px;
+  margin-top: 0;
+  margin-bottom: 24px;
+  margin-left: -2px;
+}
+
+footer p {
+  max-width: 580px;
+  margin-bottom: 24px;
+}
+
+footer ul {
+  margin-bottom: 24px;
+}
+
+footer .social {
+  font-size: 1.2em
+}
+
+
+@media (max-width: 767px) {
+  footer {
+    padding: 40px;
+    font-size: 14px;
+  }
+
+  footer h1 {
+    font-size: 36px;
+    letter-spacing: 5px;
+  }
+}
+
+footer {
+  font-size: 12px;
+  position : absolute;
+  bottom : 0;
+}
