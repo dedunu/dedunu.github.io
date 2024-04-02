@@ -6,7 +6,7 @@ body {
   overflow: hidden;
   min-height: 100%;
   font-family: 'DM Serif Display', serif;
-  background: #222 url('https://cdn.dedunu.info/dedunu/images/background.jpg') no-repeat center center;
+  background: #000;
   background-size: cover;
 }
 
