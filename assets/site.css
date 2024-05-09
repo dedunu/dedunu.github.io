@@ -6,7 +6,7 @@ body {
   overflow: hidden;
   min-height: 100%;
   font-family: 'DM Serif Display', serif;
-  background: #000;
+  background: #222 url('https://cdn.dedunu.info/travel/images/2024-05-04-04-may-2024-2.jpeg') no-repeat center center;
   background-size: cover;
 }
 
